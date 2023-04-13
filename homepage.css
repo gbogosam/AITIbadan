@@ -128,6 +128,7 @@ footer{
     display: flex;
     background-color: rgba(228, 227, 225, 0.719);
     padding-bottom: 30px;
+    width: 100%;
 }
 footer img{
     height: 20vh;
@@ -156,4 +157,71 @@ footer img{
     margin-top: 100px;
     font-size: 10px;
     margin-left: 10%;
+}
+
+
+@media all and (max-width: 500px){
+    .logo{
+        margin-left: 1%;
+        height: 7vh;
+    }
+    nav{
+        padding-top: 5px;
+        padding-left: 2px;
+        padding-bottom: 1px;
+        width: 100%;
+    }
+    .nav-links{
+        font-size: 7px;
+        margin-left: 9%;
+        margin-top: 15px;
+    }
+    .hero{
+        margin-top: 80px;
+    }
+    .trending-news{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .trending-news-block{
+        display: block;
+        padding: 10px;
+    }
+    .trending-news-card{
+        margin-left: 0;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .entertainment-news-block{
+        display: block;
+        padding-left: 0;
+        margin-top: 35px;
+        padding-top: 0;
+    }
+    .entertainment-news-card{
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    footer{
+        font-size: 7px;
+    }
+    footer img{
+        margin-left: 0;
+        height: 7vh;
+        width: 15vw;
+        margin-top: 50px;
+        /* border: 2px solid black; */
+    }
+    #copyright{
+        margin-top: 50px;
+        font-size: 8px;
+    }
+    .footer-info{
+        margin-left: 5px;
+    }
+    #socials{
+        margin-left: 5px;
+    }
 }
